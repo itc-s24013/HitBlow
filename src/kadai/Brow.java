@@ -1,4 +1,4 @@
-package kadai_version2.kadai;
+package kadai;
 
 import java.util.ArrayList;
 

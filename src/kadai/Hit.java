@@ -1,4 +1,4 @@
-package kadai_version2.kadai;
+package kadai;
 
 public class Hit {
     int hantei(int[] nums, int[] choicenum) {

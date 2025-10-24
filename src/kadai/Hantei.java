@@ -1,4 +1,4 @@
-package kadai_version2.kadai;
+package kadai;
 
 public class Hantei {
     Hit hit = new Hit();
