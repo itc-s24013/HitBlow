@@ -17,3 +17,7 @@
 ## 工夫した点
 
 - クラスの関係性をシンプルにするのを意識した
+
+## スクリーンショット
+
+![playHitBrow](<img width="1854" height="1048" alt="Image" src="https://github.com/user-attachments/assets/0d2b227a-017c-4f30-b775-61b656bdec0d" />)
