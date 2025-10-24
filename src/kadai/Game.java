@@ -5,12 +5,10 @@ import java.util.Scanner;
 
 public class Game {
     ArrayList<Player> players;
-    Hantei hantei;
     Create_number create_number = new Create_number();
     int[] num ;
     public Game() {
         players = new ArrayList<>();
-        hantei = new Hantei();
         num = create_number.create();
     }
 
