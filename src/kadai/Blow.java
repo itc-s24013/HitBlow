@@ -2,7 +2,7 @@ package kadai;
 
 import java.util.ArrayList;
 
-public class Brow extends Hit {
+public class Blow extends Hit {
 
     @Override
     int hantei(int[] nums, int[] choicenum) {

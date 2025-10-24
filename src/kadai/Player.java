@@ -27,11 +27,11 @@ public class Player {
 
     public void print(int[] num) {
         Hit hit = new Hit();
-        Brow brow = new Brow();
+        Blow blow = new Blow();
         System.out.println(name + "さんの予想結果");
         System.out.print("HIT :" + hit.hantei(num,choice) + "\t"); //browを表示する
         hitCount = hit.hantei(num,choice); //hitを保持する
-        System.out.println("BROW :" + brow.hantei(num,choice) + "\t");
+        System.out.println("BROW :" + blow.hantei(num,choice) + "\t");
         System.out.println();
     }
 

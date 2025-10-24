@@ -2,7 +2,7 @@ package kadai;
 
 public class Hantei {
     Hit hit = new Hit();
-    Brow brow = new Brow();
+    Blow blow = new Blow();
     int hitCount;
 
     public Hantei() {
@@ -13,7 +13,7 @@ public class Hantei {
         System.out.println(player.name + "さんの予想結果");
         System.out.print("HIT :" + hit.hantei(num,player.choice) + "\t"); //browを表示する
         hitCount = hit.hantei(num,player.choice); //hitを保持する
-        System.out.println("BROW :" + brow.hantei(num,player.choice) + "\t");
+        System.out.println("BROW :" + blow.hantei(num,player.choice) + "\t");
         System.out.println();
     }
 
