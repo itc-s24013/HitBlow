@@ -33,13 +33,13 @@ public class Game {
             if(hitCounts.contains(4)) {
                 int count = 0;
                 for(int i = 0; i < players.size(); i++) {
-                    if(count == players.size()){
-                        System.out.println("引き分け");
-                    }
-                    else if(hitCounts.get(i) == 4){
+                    if(hitCounts.get(i) == 4){
                         System.out.println(players.get(i).name + "さんがクリアしました");
                         count++;
                     }
+                }
+                if(count == players.size()){
+                    System.out.println("引き分け");
                 }
                 break;
             }
